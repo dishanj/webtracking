@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 767px) {
+  .page-title-box .page-title {
+    font-size: 15px;
+  }
+  .header-title {
+    font-size: 15px;
+    margin-bottom: 15px !important;
+  }
+  .m-b-30{
+    margin-bottom: 20px;
+  }
+  label {
+    font-size: 12px;
+  }
+  .package-tab .nav-tabs .nav-item .nav-link {
+    font-size: 12px;
+    padding: 11px 4px 9px;
+    min-width: 140px;
+    margin-bottom: 5px;
+  }
+  .page-title-box .breadcrumb {
+    padding: 2px 0 0 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .search-area .buttons-excel{
+    top:0px;
+  }
+  .search-area {
+    padding: 0 10px 0;
+  }
+}

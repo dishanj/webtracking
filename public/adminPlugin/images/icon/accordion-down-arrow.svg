@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="" height="" viewBox="0 0 18.985 11.627">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_791" data-name="Path 791" d="M5.17-9.7l6.89-6.89a1.5,1.5,0,0,0,.431-1.469,1.5,1.5,0,0,0-1.082-1.082,1.5,1.5,0,0,0-1.469.431l-9,9L3.25-7.4,9.97-.68a1.5,1.5,0,0,0,1.469.431,1.5,1.5,0,0,0,1.082-1.082A1.5,1.5,0,0,0,12.09-2.8Z" fill="#572682" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_790" data-name="Path 790" d="M-801,2648H199V-412H-801Z" fill="#572682"/>
+    </clipPath>
+  </defs>
+  <g id="Group_708" data-name="Group 708" transform="translate(19.188 12.567) rotate(-90)">
+    <g id="Group_547" data-name="Group 547" clip-path="url(#clip-path)">
+      <g id="Group_546" data-name="Group 546" clip-path="url(#clip-path-2)">
+        <path id="Path_789" data-name="Path 789" d="M-4.06,4.8H17.567V-24.187H-4.06Z" fill="#572682"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>ForwardingBooking</Type>
+          <Key>S12219150384</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>LK1</Code>
+        <Country>
+          <Code>LK</Code>
+          <Name>Sri Lanka</Name>
+        </Country>
+        <Name>EXPOLANKA FREIGHT (PVT) LIMITED</Name>
+      </Company>
+      <DataProvider>EXKTSTLK1</DataProvider>
+      <EnterpriseID>EXK</EnterpriseID>
+      <EventBranch>
+        <Code>CM1</Code>
+        <Name>CAMPUS BRANCH (140)</Name>
+      </EventBranch>
+      <EventDepartment>
+        <Code>FIS</Code>
+        <Name>Forwarding Import Sea</Name>
+      </EventDepartment>
+      <EventType>
+        <Code></Code>
+      </EventType>
+      <EventUser>
+        <Code>MM</Code>
+        <Name>Mahesh Madhusanka</Name>
+      </EventUser>
+      <ServerID>TST</ServerID>
+      <TriggerCount>1</TriggerCount>
+      <TriggerDate>2019-11-29T15:48:00.777</TriggerDate>
+      <TriggerDescription></TriggerDescription>
+      <TriggerType>Manual</TriggerType>
+
+      <RecipientRoleCollection>
+        <RecipientRole>
+          <Code>CNE</Code>
+          <Description>Consignee</Description>
+        </RecipientRole>
+      </RecipientRoleCollection>
+    </DataContext>
+
+    <ActualChargeable>0.000</ActualChargeable>
+    <AdditionalTerms>Add. Terms</AdditionalTerms>
+    <AWBServiceLevel>
+      <Code>STD</Code>
+      <Description>Standard</Description>
+    </AWBServiceLevel>
+    <BookingConfirmationReference>ASN</BookingConfirmationReference>
+    <CFSReference></CFSReference>
+    <ContainerCount>0</ContainerCount>
+    <ContainerMode>
+      <Code>LSE</Code>
+      <Description>Loose</Description>
+    </ContainerMode>
+    <FreightRate>0.0000</FreightRate>
+    <FreightRateCurrency>
+      <Code></Code>
+    </FreightRateCurrency>
+    <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+    <GoodsValue>0.0000</GoodsValue>
+    <GoodsValueCurrency>
+      <Code>VND</Code>
+      <Description>Vietnamese Dong</Description>
+    </GoodsValueCurrency>
+    <HBLAWBChargesDisplay>
+      <Code></Code>
+    </HBLAWBChargesDisplay>
+    <InsuranceValue>0.0000</InsuranceValue>
+    <InsuranceValueCurrency>
+      <Code>VND</Code>
+      <Description>Vietnamese Dong</Description>
+    </InsuranceValueCurrency>
+    <InterimReceiptNumber></InterimReceiptNumber>
+    <IsCancelled>false</IsCancelled>
+    <IsDirectBooking>false</IsDirectBooking>
+    <IsForwardRegistered>false</IsForwardRegistered>
+    <OuterPacks>4</OuterPacks>
+    <OuterPacksPackageType>
+      <Code>PKG</Code>
+      <Description>Package</Description>
+    </OuterPacksPackageType>
+    <PackingOrder>0</PackingOrder>
+    <PortOfDestination>
+      <Code>HKHKG</Code>
+      <Name>Hong Kong</Name>
+    </PortOfDestination>
+    <PortOfDischarge>
+      <Code></Code>
+    </PortOfDischarge>
+    <PortOfLoading>
+      <Code></Code>
+    </PortOfLoading>
+    <PortOfOrigin>
+      <Code>USCC8</Code>
+      <Name>Chesapeake City</Name>
+    </PortOfOrigin>
+    <ReleaseType>
+      <Code>OBR</Code>
+      <Description>Original Bill Required at Destination</Description>
+    </ReleaseType>
+    <ServiceLevel>
+      <Code>STD</Code>
+      <Description>Standard</Description>
+    </ServiceLevel>
+    <ShipmentIncoTerm>
+      <Code>EXW</Code>
+      <Description>Ex Works</Description>
+    </ShipmentIncoTerm>
+    <ShippedOnBoard>
+      <Code>SHP</Code>
+      <Description>Shipped</Description>
+    </ShippedOnBoard>
+    <TotalVolume>0.000</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>Cubic Metres</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>0.000</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>AIR</Code>
+      <Description>Air Freight</Description>
+    </TransportMode>
+    <WayBillNumber>12219150384</WayBillNumber>
+    <WayBillType>
+      <Code>HWB</Code>
+      <Description>House Waybill</Description>
+    </WayBillType>
+
+    <LocalProcessing>
+      <DeliveryRequiredBy></DeliveryRequiredBy>
+      <EstimatedDelivery></EstimatedDelivery>
+      <EstimatedPickup></EstimatedPickup>
+      <FCLDeliveryEquipmentNeeded>
+        <Code>PSL</Code>
+        <Description>Premise Supplies Lift</Description>
+      </FCLDeliveryEquipmentNeeded>
+      <FCLPickupEquipmentNeeded>
+        <Code>PSL</Code>
+        <Description>Premise Supplies Lift</Description>
+      </FCLPickupEquipmentNeeded>
+      <InsuranceRequired>false</InsuranceRequired>
+      <PickupRequiredBy></PickupRequiredBy>
+    </LocalProcessing>
+
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Booking Status</Key>
+        <Value>CON</Value>
+      </CustomizedField>
+      <CustomizedField>
+        <DataType>DateTime</DataType>
+        <Key>Cargo Ready Date</Key>
+        <Value>2019-11-28T00:00:00</Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+
+    <DateCollection>
+      <Date>
+        <Type>BookingConfirmed</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2019-11-29T01:12:00</Value>
+      </Date>
+      <Date>
+        <Type>Received</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value>2019-11-20T15:16:00</Value>
+      </Date>
+      <Date>
+        <Type>Departure</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value>2019-11-29T09:29:00</Value>
+      </Date>
+      <Date>
+        <Type>Arrival</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value>2019-11-30T09:33:00</Value>
+      </Date>
+      <Date>
+        <Type>ClientRequestedETA</Type>
+        <IsEstimate>true</IsEstimate>
+        <Value></Value>
+      </Date>
+    </DateCollection>
+
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>ConsignorDocumentaryAddress</AddressType>
+        <Address1>BRANCH LAND PLOT NO.240, MAP SHEET NO.39</Address1>
+        <Address2>QUARTER 7 UYEN HUNG WARD,TAN UYEN TOWN</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>LAND PLOT NO.240, MAP SHE</AddressShortCode>
+        <City>BINH DUONG</City>
+        <CompanyName>DAI HOA CO. LTD.O/B SPORTS GEAR CO.LTD TAIWAN</CompanyName>
+        <Country>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>3701870800</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>Government VAT Code</Description>
+        </GovRegNumType>
+        <OrganizationCode>DAIHOASGN</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>VNSGN</Code>
+          <Name>Ho Chi Minh City</Name>
+        </Port>
+        <Postcode>590000</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+        <Address1>BRANCH LAND PLOT NO.240, MAP SHEET NO.39</Address1>
+        <Address2>QUARTER 7 UYEN HUNG WARD,TAN UYEN TOWN</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>LAND PLOT NO.240, MAP SHE</AddressShortCode>
+        <City>BINH DUONG</City>
+        <CompanyName>DAI HOA CO. LTD.O/B SPORTS GEAR CO.LTD TAIWAN</CompanyName>
+        <Country>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>3701870800</GovRegNum>
+        <GovRegNumType>
+          <Code>VAT</Code>
+          <Description>Government VAT Code</Description>
+        </GovRegNumType>
+        <OrganizationCode>DAIHOASGN</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>VNSGN</Code>
+          <Name>Ho Chi Minh City</Name>
+        </Port>
+        <Postcode>590000</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneeDocumentaryAddress</AddressType>
+        <Address1>DD122 LOT111, LFDC, BLK 2</Address1>
+        <Address2>WING NING TSUEN YL</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>DD122 LOT111, LFDC, BLK 2</AddressShortCode>
+        <City>NT</City>
+        <CompanyName>DH HONG KONG LFL</CompanyName>
+        <Country>
+          <Code>HK</Code>
+          <Name>Hong Kong</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>DHLFLHKG</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+        <Address1>DUMMY LOT111, LFDC, BLK 13</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>DD122 LOT111, LFDC, BLK 1</AddressShortCode>
+        <City>NT</City>
+        <CompanyName>DH HONG KONG LFL</CompanyName>
+        <Country>
+          <Code>HK</Code>
+          <Name>Hong Kong</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>DHLFLHKG</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendersLocalClient</AddressType>
+        <Address1>DD122 LOT111, LFDC, BLK 2</Address1>
+        <Address2>WING NING TSUEN YL</Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>DD122 LOT111, LFDC, BLK 2</AddressShortCode>
+        <City>NT</City>
+        <CompanyName>DH HONG KONG LFL</CompanyName>
+        <Country>
+          <Code>HK</Code>
+          <Name>Hong Kong</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>DHLFLHKG</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </Port>
+        <Postcode></Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State></State>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+
+    <PackingLineCollection Content="Complete">
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>General</Description>
+        </Commodity>
+        <ContainerPackingOrder>0</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code></Code>
+        </CountryOfOrigin>
+        <DetailedDescription></DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+        <HarmonisedCode></HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Metres</Description>
+        </LengthUnit>
+        <LinePrice>0.0000</LinePrice>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PLT</Code>
+          <Description>Pallet</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <Volume>0.000</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Metres</Description>
+        </VolumeUnit>
+        <Weight>0.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+
+        <PackedItemCollection>
+        </PackedItemCollection>
+      </PackingLine>
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>General</Description>
+        </Commodity>
+        <ContainerPackingOrder>0</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </CountryOfOrigin>
+        <DetailedDescription></DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+        <HarmonisedCode></HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Metres</Description>
+        </LengthUnit>
+        <LinePrice>121.0600</LinePrice>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PLT</Code>
+          <Description>Pallet</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <Volume>0.000</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Metres</Description>
+        </VolumeUnit>
+        <Weight>0.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+
+        <PackedItemCollection>
+          <PackedItem>
+            <OrderLineLink>1</OrderLineLink>
+            <PackedQuantity>13.00000</PackedQuantity>
+            <Product>
+              <Code>3023071-103-7.5</Code>
+            </Product>
+            <UnitOfQuantity>
+              <Code>UNT</Code>
+              <Description>Unit</Description>
+            </UnitOfQuantity>
+          </PackedItem>
+        </PackedItemCollection>
+      </PackingLine>
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>General</Description>
+        </Commodity>
+        <ContainerPackingOrder>0</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </CountryOfOrigin>
+        <DetailedDescription></DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+        <HarmonisedCode></HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Metres</Description>
+        </LengthUnit>
+        <LinePrice>121.0600</LinePrice>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PLT</Code>
+          <Description>Pallet</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <Volume>0.000</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Metres</Description>
+        </VolumeUnit>
+        <Weight>0.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+
+        <PackedItemCollection>
+          <PackedItem>
+            <OrderLineLink>2</OrderLineLink>
+            <PackedQuantity>9.00000</PackedQuantity>
+            <Product>
+              <Code>3023071-103-8.5</Code>
+            </Product>
+            <UnitOfQuantity>
+              <Code>UNT</Code>
+              <Description>Unit</Description>
+            </UnitOfQuantity>
+          </PackedItem>
+        </PackedItemCollection>
+      </PackingLine>
+      <PackingLine>
+        <Commodity>
+          <Code>GEN</Code>
+          <Description>General</Description>
+        </Commodity>
+        <ContainerPackingOrder>0</ContainerPackingOrder>
+        <CountryOfOrigin>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </CountryOfOrigin>
+        <DetailedDescription></DetailedDescription>
+        <EndItemNo>0</EndItemNo>
+        <ExportReferenceNumber></ExportReferenceNumber>
+        <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+        <HarmonisedCode></HarmonisedCode>
+        <Height>0.000</Height>
+        <ImportReferenceNumber></ImportReferenceNumber>
+        <ItemNo>0</ItemNo>
+        <Length>0.000</Length>
+        <LengthUnit>
+          <Code>M</Code>
+          <Description>Metres</Description>
+        </LengthUnit>
+        <LinePrice>121.0600</LinePrice>
+        <LoadingMeters>0.000</LoadingMeters>
+        <MarksAndNos></MarksAndNos>
+        <OutturnComment></OutturnComment>
+        <OutturnDamagedQty>0</OutturnDamagedQty>
+        <OutturnedHeight>0.000</OutturnedHeight>
+        <OutturnedLength>0.000</OutturnedLength>
+        <OutturnedVolume>0.000</OutturnedVolume>
+        <OutturnedWeight>0.000</OutturnedWeight>
+        <OutturnedWidth>0.000</OutturnedWidth>
+        <OutturnPillagedQty>0</OutturnPillagedQty>
+        <OutturnQty>0</OutturnQty>
+        <PackQty>1</PackQty>
+        <PackType>
+          <Code>PRS</Code>
+          <Description>Pairs</Description>
+        </PackType>
+        <ReferenceNumber></ReferenceNumber>
+        <Volume>0.000</Volume>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Metres</Description>
+        </VolumeUnit>
+        <Weight>0.000</Weight>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+        <Width>0.000</Width>
+
+        <PackedItemCollection>
+          <PackedItem>
+            <OrderLineLink>3</OrderLineLink>
+            <PackedQuantity>17.00000</PackedQuantity>
+            <Product>
+              <Code>3023071-103-7</Code>
+            </Product>
+            <UnitOfQuantity>
+              <Code>UNT</Code>
+              <Description>Unit</Description>
+            </UnitOfQuantity>
+          </PackedItem>
+        </PackedItemCollection>
+      </PackingLine>
+    </PackingLineCollection>
+
+    <RelatedShipmentCollection>
+      <RelatedShipment>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>OrderManagerOrder</Type>
+              <Key>4201848665~0~DHLFLHKG</Key>
+            </DataSource>
+          </DataSourceCollection>
+        </DataContext>
+
+        <AdditionalTerms>VNSGN</AdditionalTerms>
+        <BookingConfirmationReference></BookingConfirmationReference>
+        <CommercialInfo>
+          <CommercialInvoiceCollection>
+            <CommercialInvoice>
+              <InvoiceNumber></InvoiceNumber>
+              <InvoiceDate></InvoiceDate>
+            </CommercialInvoice>
+          </CommercialInvoiceCollection>
+        </CommercialInfo>
+        <ContainerMode>
+          <Code>LSE</Code>
+          <Description>Loose</Description>
+        </ContainerMode>
+        <CountryOfSupply>
+          <Code>VN</Code>
+          <Name>Viet Nam</Name>
+        </CountryOfSupply>
+        <FirstBuyerContact></FirstBuyerContact>
+        <FreightRate>1.000000000</FreightRate>
+        <FreightRateCurrency>
+          <Code>USD</Code>
+          <Description>United States Dollar</Description>
+        </FreightRateCurrency>
+        <GoodsDescription>Men's Synthetic Sport Footwear</GoodsDescription>
+        <OuterPacks>0</OuterPacks>
+        <OuterPacksPackageType>
+          <Code>PLT</Code>
+          <Description>Pallet</Description>
+        </OuterPacksPackageType>
+        <PortOfDestination>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </PortOfDestination>
+        <PortOfDischarge>
+          <Code>HKHKG</Code>
+          <Name>Hong Kong</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>USCC8</Code>
+          <Name>Chesapeake City</Name>
+        </PortOfLoading>
+        <PortOfOrigin>
+          <Code>USCC8</Code>
+          <Name>Chesapeake City</Name>
+        </PortOfOrigin>
+        <SecondBuyerContact></SecondBuyerContact>
+        <ServiceLevel>
+          <Code>STD</Code>
+          <Description>Standard</Description>
+        </ServiceLevel>
+        <ShipmentIncoTerm>
+          <Code>EXW</Code>
+          <Description>Ex Works</Description>
+        </ShipmentIncoTerm>
+        <TotalVolume>0.000</TotalVolume>
+        <TotalVolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Metres</Description>
+        </TotalVolumeUnit>
+        <TotalWeight>0.000</TotalWeight>
+        <TotalWeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </TotalWeightUnit>
+        <TransportMode>
+          <Code>AIR</Code>
+          <Description>Air Freight</Description>
+        </TransportMode>
+        <WayBillNumber></WayBillNumber>
+        <WayBillType>
+          <Code>HWB</Code>
+          <Description>House Waybill</Description>
+        </WayBillType>
+
+        <LocalProcessing>
+          <DeliveryRequiredBy></DeliveryRequiredBy>
+        </LocalProcessing>
+
+        <Order>
+          <OrderNumber>4201848665</OrderNumber>
+          <ClientReference></ClientReference>
+          <OrderNumberSplit>0</OrderNumberSplit>
+          <Status>
+            <Code>CNF</Code>
+            <Description>Confirmed</Description>
+          </Status>
+
+          <OrderLineCollection Content="Complete">
+            <OrderLine>
+              <AdditionalInformation></AdditionalInformation>
+              <AdditionalTerms>VNSGN</AdditionalTerms>
+              <CommercialInvoiceNumber></CommercialInvoiceNumber>
+              <ConfirmationNumber></ConfirmationNumber>
+              <ContainerNumber></ContainerNumber>
+              <ContainerPackingOrder>0</ContainerPackingOrder>
+              <CustomsData>
+                <CountryOfOrigin>
+                  <Code>VN</Code>
+                  <Name>Viet Nam</Name>
+                </CountryOfOrigin>
+              </CustomsData>
+              <ExpectedQuantity>0.00000</ExpectedQuantity>
+              <ExtendedLinePrice>121.0600</ExtendedLinePrice>
+              <IncoTerm>
+                <Code>EXW</Code>
+                <Description>Ex Works</Description>
+              </IncoTerm>
+              <InnerPacksQty>0.000</InnerPacksQty>
+              <InnerPacksQtyUnit>
+                <Code></Code>
+              </InnerPacksQtyUnit>
+              <LineNumber>10</LineNumber>
+              <LineSplitNumber>0</LineSplitNumber>
+              <Link>3</Link>
+              <OrderedQty>17.00000</OrderedQty>
+              <OrderedQtyUnit>
+                <Code>UNT</Code>
+                <Description>Unit</Description>
+              </OrderedQtyUnit>
+              <PackageHeight>0.000</PackageHeight>
+              <PackageLength>0.000</PackageLength>
+              <PackageLengthUnit>
+                <Code></Code>
+                <Description></Description>
+              </PackageLengthUnit>
+              <PackageQty>17.000</PackageQty>
+              <PackageQtyUnit>
+                <Code>PRS</Code>
+                <Description>Pairs</Description>
+              </PackageQtyUnit>
+              <PackageWidth>0.000</PackageWidth>
+              <PartAttribute1>UA TM Magnetico Ctrl</PartAttribute1>
+              <PartAttribute2>UA TM Magnetico Ctrl</PartAttribute2>
+              <PartAttribute3></PartAttribute3>
+              <Product>
+                <Code>3023071-103-7</Code>
+                <Description>Men's Synthetic Sport Footwear</Description>
+              </Product>
+              <QuantityMet>0.00000</QuantityMet>
+              <RequiredExWorks>2019-07-26T00:00:00</RequiredExWorks>
+              <RequiredInStore>2019-07-02T00:00:00</RequiredInStore>
+              <SpecialInstructions></SpecialInstructions>
+              <Status>
+                <Code>PLC</Code>
+                <Description>Order Placed / finalised</Description>
+              </Status>
+              <SubLineNumber>1</SubLineNumber>
+              <SupplierConfirmedAcceptance></SupplierConfirmedAcceptance>
+              <UnitPriceRecommended>7.1212</UnitPriceRecommended>
+              <Volume>0.000</Volume>
+              <VolumeUnit>
+                <Code></Code>
+              </VolumeUnit>
+              <Weight>0.000</Weight>
+              <WeightUnit>
+                <Code></Code>
+              </WeightUnit>
+            </OrderLine>
+            <OrderLine>
+              <AdditionalInformation></AdditionalInformation>
+              <AdditionalTerms>VNSGN</AdditionalTerms>
+              <CommercialInvoiceNumber></CommercialInvoiceNumber>
+              <ConfirmationNumber></ConfirmationNumber>
+              <ContainerNumber></ContainerNumber>
+              <ContainerPackingOrder>0</ContainerPackingOrder>
+              <CustomsData>
+                <CountryOfOrigin>
+                  <Code>VN</Code>
+                  <Name>Viet Nam</Name>
+                </CountryOfOrigin>
+              </CustomsData>
+              <ExpectedQuantity>0.00000</ExpectedQuantity>
+              <ExtendedLinePrice>121.0600</ExtendedLinePrice>
+              <IncoTerm>
+                <Code>EXW</Code>
+                <Description>Ex Works</Description>
+              </IncoTerm>
+              <InnerPacksQty>0.000</InnerPacksQty>
+              <InnerPacksQtyUnit>
+                <Code></Code>
+              </InnerPacksQtyUnit>
+              <LineNumber>20</LineNumber>
+              <LineSplitNumber>0</LineSplitNumber>
+              <Link>1</Link>
+              <OrderedQty>13.00000</OrderedQty>
+              <OrderedQtyUnit>
+                <Code>UNT</Code>
+                <Description>Unit</Description>
+              </OrderedQtyUnit>
+              <PackageHeight>0.000</PackageHeight>
+              <PackageLength>0.000</PackageLength>
+              <PackageLengthUnit>
+                <Code></Code>
+                <Description></Description>
+              </PackageLengthUnit>
+              <PackageQty>0.000</PackageQty>
+              <PackageQtyUnit>
+                <Code></Code>
+              </PackageQtyUnit>
+              <PackageWidth>0.000</PackageWidth>
+              <PartAttribute1>UA TM Magnetico Ctrl</PartAttribute1>
+              <PartAttribute2>UA TM Magnetico Ctrl</PartAttribute2>
+              <PartAttribute3></PartAttribute3>
+              <Product>
+                <Code>3023071-103-7.5</Code>
+                <Description>Men's Synthetic Sport Footwear</Description>
+              </Product>
+              <QuantityMet>0.00000</QuantityMet>
+              <RequiredExWorks>2019-07-26T00:00:00</RequiredExWorks>
+              <RequiredInStore>2019-07-02T00:00:00</RequiredInStore>
+              <SpecialInstructions></SpecialInstructions>
+              <Status>
+                <Code>PLC</Code>
+                <Description>Order Placed / finalised</Description>
+              </Status>
+              <SubLineNumber>1</SubLineNumber>
+              <SupplierConfirmedAcceptance></SupplierConfirmedAcceptance>
+              <UnitPriceRecommended>9.3123</UnitPriceRecommended>
+              <Volume>0.000</Volume>
+              <VolumeUnit>
+                <Code></Code>
+              </VolumeUnit>
+              <Weight>0.000</Weight>
+              <WeightUnit>
+                <Code></Code>
+              </WeightUnit>
+            </OrderLine>
+            <OrderLine>
+              <AdditionalInformation></AdditionalInformation>
+              <AdditionalTerms>VNSGN</AdditionalTerms>
+              <CommercialInvoiceNumber></CommercialInvoiceNumber>
+              <ConfirmationNumber></ConfirmationNumber>
+              <ContainerNumber></ContainerNumber>
+              <ContainerPackingOrder>0</ContainerPackingOrder>
+              <CustomsData>
+                <CountryOfOrigin>
+                  <Code>VN</Code>
+                  <Name>Viet Nam</Name>
+                </CountryOfOrigin>
+              </CustomsData>
+              <ExpectedQuantity>0.00000</ExpectedQuantity>
+              <ExtendedLinePrice>121.0600</ExtendedLinePrice>
+              <IncoTerm>
+                <Code>EXW</Code>
+                <Description>Ex Works</Description>
+              </IncoTerm>
+              <InnerPacksQty>0.000</InnerPacksQty>
+              <InnerPacksQtyUnit>
+                <Code></Code>
+              </InnerPacksQtyUnit>
+              <LineNumber>30</LineNumber>
+              <LineSplitNumber>0</LineSplitNumber>
+              <Link>2</Link>
+              <OrderedQty>9.00000</OrderedQty>
+              <OrderedQtyUnit>
+                <Code>UNT</Code>
+                <Description>Unit</Description>
+              </OrderedQtyUnit>
+              <PackageHeight>0.000</PackageHeight>
+              <PackageLength>0.000</PackageLength>
+              <PackageLengthUnit>
+                <Code></Code>
+                <Description></Description>
+              </PackageLengthUnit>
+              <PackageQty>0.000</PackageQty>
+              <PackageQtyUnit>
+                <Code></Code>
+              </PackageQtyUnit>
+              <PackageWidth>0.000</PackageWidth>
+              <PartAttribute1>UA TM Magnetico Ctrl</PartAttribute1>
+              <PartAttribute2>UA TM Magnetico Ctrl</PartAttribute2>
+              <PartAttribute3></PartAttribute3>
+              <Product>
+                <Code>3023071-103-8.5</Code>
+                <Description>Men's Synthetic Sport Footwear</Description>
+              </Product>
+              <QuantityMet>0.00000</QuantityMet>
+              <RequiredExWorks>2019-07-26T00:00:00</RequiredExWorks>
+              <RequiredInStore>2019-07-02T00:00:00</RequiredInStore>
+              <SpecialInstructions></SpecialInstructions>
+              <Status>
+                <Code>PLC</Code>
+                <Description>Order Placed / finalised</Description>
+              </Status>
+              <SubLineNumber>1</SubLineNumber>
+              <SupplierConfirmedAcceptance></SupplierConfirmedAcceptance>
+              <UnitPriceRecommended>13.4511</UnitPriceRecommended>
+              <Volume>0.000</Volume>
+              <VolumeUnit>
+                <Code></Code>
+              </VolumeUnit>
+              <Weight>0.000</Weight>
+              <WeightUnit>
+                <Code></Code>
+              </WeightUnit>
+            </OrderLine>
+          </OrderLineCollection>
+        </Order>
+
+        <AdditionalBillCollection>
+          <AdditionalBill>
+            <BillNumber></BillNumber>
+            <BillType>
+              <Code>MWB</Code>
+              <Description>Master Waybill</Description>
+            </BillType>
+          </AdditionalBill>
+        </AdditionalBillCollection>
+
+        <CustomizedFieldCollection>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Message ID</Key>
+            <Value>0000000805735703</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Colour</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Style</Key>
+            <Value></Value>
+          </CustomizedField>
+        </CustomizedFieldCollection>
+
+        <DateCollection>
+          <Date>
+            <Type>BookingConfirmed</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>DepartureVesselCutoffDate</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>ExWorksRequiredBy</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>FollowUp</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>OrderDate</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value>2018-12-28T00:00:00</Value>
+          </Date>
+        </DateCollection>
+
+        <MilestoneCollection>
+          <Milestone>
+            <Description>Order Confirmed</Description>
+            <EventCode>OCF</EventCode>
+            <Sequence>1</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Ex Factory</Description>
+            <EventCode>EXW</EventCode>
+            <Sequence>2</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Origin Receival at Wharf / Depot</Description>
+            <EventCode>GIN</EventCode>
+            <Sequence>3</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>FAC=CTO</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Departure</Description>
+            <EventCode>DEP</EventCode>
+            <Sequence>4</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;FirstLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2019-11-29T09:29:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Arrival</Description>
+            <EventCode>ARV</EventCode>
+            <Sequence>5</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;LastLeg.Destination&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2019-11-30T09:33:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Clearance Commenced</Description>
+            <EventCode>CCC</EventCode>
+            <Sequence>6</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Clearance Finalized</Description>
+            <EventCode>CLR</EventCode>
+            <Sequence>7</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Unpacked</Description>
+            <EventCode>CAV</EventCode>
+            <Sequence>8</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Estimated Pickup</Description>
+            <EventCode>DCA</EventCode>
+            <Sequence>9</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Order Delivered</Description>
+            <EventCode>DCF</EventCode>
+            <Sequence>10</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+        </MilestoneCollection>
+
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ConsigneeDocumentaryAddress</AddressType>
+            <Address1>DD122 LOT111, LFDC, BLK 2</Address1>
+            <Address2>WING NING TSUEN YL</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>DD122 LOT111, LFDC, BLK 2</AddressShortCode>
+            <City>NT</City>
+            <CompanyName>DH HONG KONG LFL</CompanyName>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>DHLFLHKG</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>HKHKG</Code>
+              <Name>Hong Kong</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsignorDocumentaryAddress</AddressType>
+            <Address1>BRANCH LAND PLOT NO.240, MAP SHEET NO.39</Address1>
+            <Address2>QUARTER 7 UYEN HUNG WARD,TAN UYEN TOWN</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>LAND PLOT NO.240, MAP SHE</AddressShortCode>
+            <City>BINH DUONG</City>
+            <CompanyName>DAI HOA CO. LTD.O/B SPORTS GEAR CO.LTD TAIWAN</CompanyName>
+            <Country>
+              <Code>VN</Code>
+              <Name>Viet Nam</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>3701870800</GovRegNum>
+            <GovRegNumType>
+              <Code>VAT</Code>
+              <Description>Government VAT Code</Description>
+            </GovRegNumType>
+            <OrganizationCode>DAIHOASGN</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>VNSGN</Code>
+              <Name>Ho Chi Minh City</Name>
+            </Port>
+            <Postcode>590000</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>SendingForwarderAddress</AddressType>
+            <Address1>2373 GLOBAL DRIVE SUITE 100</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>2373 GLOBAL DRIVE SUITE 1</AddressShortCode>
+            <City>GROVEPORT</City>
+            <CompanyName>EXPOLANKA USA LLC (HAN3)</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>20-4829727</GovRegNum>
+            <GovRegNumType>
+              <Code>EIN</Code>
+              <Description>Employer Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>EXPUSACMZ</OrganizationCode>
+            <Phone>+16143522437</Phone>
+            <Port>
+              <Code>USCMH</Code>
+              <Name>Columbus</Name>
+            </Port>
+            <Postcode>43125</Postcode>
+            <ScreeningStatus>
+              <Code>UNK</Code>
+              <Description>Unknown</Description>
+            </ScreeningStatus>
+            <State>OH</State>
+
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>FRM</Code>
+                  <Description>FIRMS Code</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </CountryOfIssue>
+                <Value>HAN3</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ReceivingForwarderAddress</AddressType>
+            <Address1>UNIT 606-609, 6/F, NEW EAST OCEAN CENTRE</Address1>
+            <Address2>9 SCIENCE MUSEUM ROAD, TSIMSHATSUI EAST,</Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>UNIT 606-609, 6/F, NEW E1</AddressShortCode>
+            <City>KOWLOON</City>
+            <CompanyName>EXPOFREIGHT ( HONG KONG ) LIMITED</CompanyName>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <GovRegNum>50849507-000-06-17-9</GovRegNum>
+            <GovRegNumType>
+              <Code>GCR</Code>
+              <Description>Government Corporation Code</Description>
+            </GovRegNumType>
+            <OrganizationCode>EXPOFRHKG</OrganizationCode>
+            <Phone>+85226206318</Phone>
+            <Port>
+              <Code>HKHKG</Code>
+              <Name>Hong Kong</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>CLR</Code>
+              <Description>Clear</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+            <Address1>DUMMY LOT111, LFDC, BLK 13</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>DD122 LOT111, LFDC, BLK 1</AddressShortCode>
+            <City>NT</City>
+            <CompanyName>DH HONG KONG LFL</CompanyName>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Email></Email>
+            <Fax></Fax>
+            <OrganizationCode>DHLFLHKG</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>HKHKG</Code>
+              <Name>Hong Kong</Name>
+            </Port>
+            <Postcode></Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State></State>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+      </RelatedShipment>
+    </RelatedShipmentCollection>
+  </Shipment>
+</UniversalShipment>
